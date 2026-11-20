@@ -1,0 +1,585 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Majedah Aljadaan — Portfolio</title>
+<meta name="description" content="Majedah Aljadaan's portfolio: marketing, social media, protocol and media center work across Riyadh's biggest cultural and public moments.">
+<meta name="theme-color" content="#ffe6f0">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Majedah Aljadaan — Portfolio">
+<meta property="og:description" content="Marketing, social media, protocol and media work in Riyadh.">
+<meta property="og:image" content="assets/portrait.jpg">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,800&amp;family=DM+Sans:wght@400;500;700&amp;family=Caveat:wght@600;700&amp;family=IBM+Plex+Sans+Arabic:wght@700&amp;family=Cormorant+Garamond:wght@600&amp;display=swap">
+<style>
+body{margin:0;background:#FFE6F0}
+a{color:#A8005A}a:hover{color:#6E003B}
+@keyframes pop{0%{opacity:0;transform:translateY(45%) scale(.55) rotate(-8deg)}65%{opacity:1;transform:translateY(-8%) scale(1.08) rotate(2deg)}100%{opacity:1;transform:none}}
+@keyframes float{0%,100%{transform:translateY(0) rotate(var(--r,0deg))}50%{transform:translateY(-16px) rotate(calc(var(--r,0deg) + 1.5deg))}}
+@keyframes spin{to{transform:rotate(360deg)}}
+@keyframes marquee{to{transform:translateX(-50%)}}
+@keyframes stripes{to{background-position:240px 0}}
+@keyframes rise{from{opacity:0;transform:translateY(70px) rotate(var(--r,0deg)) scale(.96)}to{opacity:1;transform:translateY(0) rotate(var(--r,0deg)) scale(1)}}
+@keyframes grow{from{opacity:0;transform:scale(.7)}to{opacity:1;transform:scale(1)}}
+@keyframes wiggle{0%,100%{transform:rotate(var(--r,0deg))}25%{transform:rotate(calc(var(--r,0deg) - 4deg))}75%{transform:rotate(calc(var(--r,0deg) + 4deg))}}
+.letter{display:inline-block;opacity:0;animation:pop .7s cubic-bezier(.2,.9,.3,1.3) forwards}
+.word{display:inline-block;white-space:nowrap}
+.float{animation:float 5s ease-in-out infinite}
+.spin{animation:spin 14s linear infinite}
+.marquee-track{display:flex;width:max-content;animation:marquee 26s linear infinite}
+.stripes{animation:stripes 18s linear infinite}
+.lift{transition:transform .35s cubic-bezier(.2,.9,.3,1.2),box-shadow .35s}
+.lift:hover{transform:translateY(-10px) rotate(0deg) !important;box-shadow:0 30px 50px rgba(142,15,66,.28) !important}
+.chip:hover{animation:wiggle .4s ease-in-out}
+.reveal{transform:rotate(var(--r,0deg))}
+@supports (animation-timeline: view()){
+.reveal{animation:rise linear both;animation-timeline:view();animation-range:entry 0% cover 28%}
+.big-reveal{animation:grow linear both;animation-timeline:view();animation-range:entry 0% cover 35%}
+}
+@media (prefers-reduced-motion: reduce){.letter,.float,.spin,.marquee-track,.stripes,.reveal,.big-reveal,.chip:hover{animation:none !important;opacity:1 !important}}
+@media (max-width:760px){.giant{font-size:72px !important}}
+@media (max-width:980px){.deco{display:none !important}.hero-pol{position:relative !important;right:auto !important;top:auto !important;margin:48px auto 0;width:240px !important}}
+</style>
+</head>
+<body>
+<div style="font-family: 'DM Sans', system-ui, sans-serif; color: #3B0A24; background: #FFE6F0; overflow: hidden">
+
+<!-- HERO -->
+<section class="stripes" style="position: relative; background: repeating-linear-gradient(90deg, #FFE6F0 0 120px, #FFD3E4 120px 240px); padding-bottom: 96px">
+<header style="max-width: 1240px; margin: 0 auto; padding: 24px 32px; display: flex; flex-wrap: wrap; gap: 16px; justify-content: space-between; align-items: center">
+<span style="font-family: Caveat, cursive; font-weight: 700; font-size: 34px; color: #D81B72">majedah ✦</span>
+<nav aria-label="Sections" style="display: flex; flex-wrap: wrap; gap: 6px; background: #FFFFFF; padding: 6px; border-radius: 999px; box-shadow: 0 8px 24px rgba(194,24,91,.15)">
+<a href="#about" style="color: #3B0A24; text-decoration: none; font-weight: 500; font-size: 14px; padding: 12px 16px; border-radius: 999px">about me</a>
+<a href="#work" style="color: #3B0A24; text-decoration: none; font-weight: 500; font-size: 14px; padding: 12px 16px; border-radius: 999px">my work</a>
+<a href="#reel" style="color: #3B0A24; text-decoration: none; font-weight: 500; font-size: 14px; padding: 12px 16px; border-radius: 999px">the reel</a>
+<a href="#brand" style="color: #3B0A24; text-decoration: none; font-weight: 500; font-size: 14px; padding: 12px 16px; border-radius: 999px">my brand</a>
+<a href="#connect" style="color: #FFFFFF; background: #D81B72; text-decoration: none; font-weight: 700; font-size: 14px; padding: 12px 18px; border-radius: 999px">connect</a>
+</nav>
+</header>
+
+<div style="max-width: 1240px; margin: 0 auto; padding: 48px 32px 0; position: relative">
+<p style="margin: 0 0 8px; font-family: Caveat, cursive; font-weight: 700; font-size: 40px; color: #3B0A24; transform: rotate(-3deg); transform-origin: left">hi, i'm majedah — i do</p>
+<h1 aria-label="marketing, social media, protocol &amp; VIPs, media centers" style="margin: 0; min-height: 360px; font-family: 'Bricolage Grotesque', sans-serif; font-weight: 800; font-size: 168px; line-height: 0.86; letter-spacing: -0.045em; color: #D81B72" class="giant">
+
+
+<span aria-hidden="true" class="phrase" data-i="0" style="display: block">
+
+<span class="word"><span class="letter" style="animation-delay: 0.000s">m</span><span class="letter" style="animation-delay: 0.045s">a</span><span class="letter" style="animation-delay: 0.090s">r</span><span class="letter" style="animation-delay: 0.135s">k</span><span class="letter" style="animation-delay: 0.180s">e</span><span class="letter" style="animation-delay: 0.225s">t</span><span class="letter" style="animation-delay: 0.270s">i</span><span class="letter" style="animation-delay: 0.315s">n</span><span class="letter" style="animation-delay: 0.360s">g</span></span>
+<span> </span>
+
+</span>
+
+
+
+<span aria-hidden="true" class="phrase" data-i="1" style="display: none">
+
+<span class="word"><span class="letter" style="animation-delay: 0.000s">s</span><span class="letter" style="animation-delay: 0.045s">o</span><span class="letter" style="animation-delay: 0.090s">c</span><span class="letter" style="animation-delay: 0.135s">i</span><span class="letter" style="animation-delay: 0.180s">a</span><span class="letter" style="animation-delay: 0.225s">l</span></span>
+<span> </span>
+
+<span class="word"><span class="letter" style="animation-delay: 0.270s">m</span><span class="letter" style="animation-delay: 0.315s">e</span><span class="letter" style="animation-delay: 0.360s">d</span><span class="letter" style="animation-delay: 0.405s">i</span><span class="letter" style="animation-delay: 0.450s">a</span></span>
+<span> </span>
+
+</span>
+
+
+
+<span aria-hidden="true" class="phrase" data-i="2" style="display: none">
+
+<span class="word"><span class="letter" style="animation-delay: 0.000s">p</span><span class="letter" style="animation-delay: 0.045s">r</span><span class="letter" style="animation-delay: 0.090s">o</span><span class="letter" style="animation-delay: 0.135s">t</span><span class="letter" style="animation-delay: 0.180s">o</span><span class="letter" style="animation-delay: 0.225s">c</span><span class="letter" style="animation-delay: 0.270s">o</span><span class="letter" style="animation-delay: 0.315s">l</span></span>
+<span> </span>
+
+<span class="word"><span class="letter" style="animation-delay: 0.360s">&amp;</span></span>
+<span> </span>
+
+<span class="word"><span class="letter" style="animation-delay: 0.405s">V</span><span class="letter" style="animation-delay: 0.450s">I</span><span class="letter" style="animation-delay: 0.495s">P</span><span class="letter" style="animation-delay: 0.540s">s</span></span>
+<span> </span>
+
+</span>
+
+
+
+<span aria-hidden="true" class="phrase" data-i="3" style="display: none">
+
+<span class="word"><span class="letter" style="animation-delay: 0.000s">m</span><span class="letter" style="animation-delay: 0.045s">e</span><span class="letter" style="animation-delay: 0.090s">d</span><span class="letter" style="animation-delay: 0.135s">i</span><span class="letter" style="animation-delay: 0.180s">a</span></span>
+<span> </span>
+
+<span class="word"><span class="letter" style="animation-delay: 0.225s">c</span><span class="letter" style="animation-delay: 0.270s">e</span><span class="letter" style="animation-delay: 0.315s">n</span><span class="letter" style="animation-delay: 0.360s">t</span><span class="letter" style="animation-delay: 0.405s">e</span><span class="letter" style="animation-delay: 0.450s">r</span><span class="letter" style="animation-delay: 0.495s">s</span></span>
+<span> </span>
+
+</span>
+
+
+</h1>
+<div style="display: flex; flex-wrap: wrap; gap: 24px; align-items: center; padding-top: 24px; max-width: 640px">
+<p style="margin: 0; font-size: 19px; line-height: 1.6">Marketing, social media and project coordination for some of Riyadh's biggest moments: from the Royal Commission for Riyadh City's festivals to the city's new metro.</p>
+<a href="#work" class="lift" style="color: #FFFFFF; background: #3B0A24; text-decoration: none; font-weight: 700; font-size: 16px; padding: 16px 28px; border-radius: 999px">see my work ↓</a>
+</div>
+
+<!-- floating polaroid -->
+<div class="float hero-pol" style="--r: 6deg; position: absolute; right: 40px; top: 10px; width: 280px; background: #FFFFFF; padding: 14px 14px 58px; box-shadow: 0 24px 50px rgba(142,15,66,.25); border-radius: 4px">
+<div aria-hidden="true" style="position: absolute; top: -16px; left: 96px; width: 96px; height: 30px; background: rgba(255,170,205,.75); transform: rotate(-4deg)"></div>
+<img src="assets/portrait.jpg" alt="Portrait of Majedah Aljadaan" style="width: 100%; height: 300px; object-fit: cover; object-position: center 30%; display: block">
+<span style="position: absolute; left: 0; right: 0; bottom: 14px; text-align: center; font-family: Caveat, cursive; font-weight: 700; font-size: 28px; color: #3B0A24">riyadh, ksa ♡</span>
+</div>
+<div class="float deco" style="--r: -10deg; animation-delay: -2s; position: absolute; right: 290px; top: 330px; background: #D81B72; color: #FFFFFF; padding: 14px 20px; border-radius: 14px; box-shadow: 0 16px 30px rgba(142,15,66,.3); display: flex; flex-direction: column; gap: 2px">
+<span style="font-family: 'Bricolage Grotesque', sans-serif; font-weight: 800; font-size: 20px; letter-spacing: .06em">ALL ACCESS</span>
+<span style="font-size: 12px; letter-spacing: .14em">VIP ✦ MEDIA ✦ STAFF</span>
+</div>
+<svg class="spin deco" aria-hidden="true" width="96" height="96" viewBox="0 0 100 100" style="position: absolute; right: 8px; top: 380px"><path d="M50 0 L58 42 L100 50 L58 58 L50 100 L42 58 L0 50 L42 42 Z" fill="#3B0A24"></path></svg>
+<svg class="spin deco" aria-hidden="true" width="44" height="44" viewBox="0 0 100 100" style="position: absolute; right: 340px; top: 0; animation-duration: 9s"><path d="M50 0 L58 42 L100 50 L58 58 L50 100 L42 58 L0 50 L42 42 Z" fill="#D81B72"></path></svg>
+</div>
+</section>
+
+<!-- MARQUEE -->
+<div style="background: #D81B72; color: #FFFFFF; padding: 22px 0; transform: rotate(-1.5deg); margin: -20px -20px 0; box-shadow: 0 12px 30px rgba(142,15,66,.25)">
+<div class="marquee-track" style="gap: 40px; font-family: 'Bricolage Grotesque', sans-serif; font-weight: 800; font-size: 34px; letter-spacing: -0.02em; white-space: nowrap">
+
+<span style="display: flex; align-items: center; gap: 40px">Noor Riyadh<span aria-hidden="true" style="font-size: 24px">✦</span></span>
+
+<span style="display: flex; align-items: center; gap: 40px">Tuwaiq Sculpture<span aria-hidden="true" style="font-size: 24px">✦</span></span>
+
+<span style="display: flex; align-items: center; gap: 40px">Slava's Snow Show<span aria-hidden="true" style="font-size: 24px">✦</span></span>
+
+<span style="display: flex; align-items: center; gap: 40px">Riyadh Film Music Festival<span aria-hidden="true" style="font-size: 24px">✦</span></span>
+
+<span style="display: flex; align-items: center; gap: 40px">Riyadh Metro<span aria-hidden="true" style="font-size: 24px">✦</span></span>
+
+<span style="display: flex; align-items: center; gap: 40px">Diriyah Gate<span aria-hidden="true" style="font-size: 24px">✦</span></span>
+
+<span style="display: flex; align-items: center; gap: 40px">Money20/20<span aria-hidden="true" style="font-size: 24px">✦</span></span>
+
+<span style="display: flex; align-items: center; gap: 40px">Wassmline<span aria-hidden="true" style="font-size: 24px">✦</span></span>
+
+<span style="display: flex; align-items: center; gap: 40px">Noor Riyadh<span aria-hidden="true" style="font-size: 24px">✦</span></span>
+
+<span style="display: flex; align-items: center; gap: 40px">Tuwaiq Sculpture<span aria-hidden="true" style="font-size: 24px">✦</span></span>
+
+<span style="display: flex; align-items: center; gap: 40px">Slava's Snow Show<span aria-hidden="true" style="font-size: 24px">✦</span></span>
+
+<span style="display: flex; align-items: center; gap: 40px">Riyadh Film Music Festival<span aria-hidden="true" style="font-size: 24px">✦</span></span>
+
+<span style="display: flex; align-items: center; gap: 40px">Riyadh Metro<span aria-hidden="true" style="font-size: 24px">✦</span></span>
+
+<span style="display: flex; align-items: center; gap: 40px">Diriyah Gate<span aria-hidden="true" style="font-size: 24px">✦</span></span>
+
+<span style="display: flex; align-items: center; gap: 40px">Money20/20<span aria-hidden="true" style="font-size: 24px">✦</span></span>
+
+<span style="display: flex; align-items: center; gap: 40px">Wassmline<span aria-hidden="true" style="font-size: 24px">✦</span></span>
+
+</div>
+</div>
+
+<!-- ABOUT ME -->
+<section id="about" style="max-width: 1240px; margin: 0 auto; padding: 128px 32px 96px; display: flex; flex-wrap: wrap; gap: 56px; align-items: center">
+<div style="flex: 999 1 520px; min-width: 0; display: flex; flex-direction: column; gap: 24px">
+<h2 class="big-reveal giant" style="margin: 0; font-family: 'Bricolage Grotesque', sans-serif; font-weight: 800; font-size: 140px; line-height: .85; letter-spacing: -0.045em; color: #D81B72; transform-origin: left">about me</h2>
+<p class="reveal" style="margin: 0; font-size: 18px; line-height: 1.7; max-width: 620px">I have 3+ years of project experience on government, cultural, entertainment and corporate work in Riyadh, much of it with the Royal Commission for Riyadh City. I run social media, look after VIPs and official guests, support media centers and keep teams moving on site when the pressure is on. Before that I was a Marketing Specialist at Banque Saudi Fransi, and since 2021 I've run my own abaya brand, Wassmline.</p>
+<p class="reveal" style="margin: 0; font-family: Caveat, cursive; font-weight: 700; font-size: 32px; color: #D81B72; --r: -2deg">calm under pressure, clear in the message ♡</p>
+</div>
+<div style="flex: 1 1 380px; display: flex; flex-direction: column; gap: 28px; align-items: center">
+<div style="width: 100%; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 18px">
+
+<div class="reveal lift" style="--r: -3deg; background: #D81B72; color: #FFFFFF; border-radius: 24px; padding: 26px 22px; display: flex; flex-direction: column; gap: 6px; box-shadow: 0 14px 30px rgba(142,15,66,.15)">
+<span style="font-family: 'Bricolage Grotesque', sans-serif; font-weight: 800; font-size: 54px; line-height: 1; letter-spacing: -0.03em">3+</span>
+<span style="font-size: 14px; line-height: 1.45">years of project experience in Riyadh</span>
+</div>
+
+<div class="reveal lift" style="--r: 2deg; background: #FFFFFF; color: #3B0A24; border-radius: 24px; padding: 26px 22px; display: flex; flex-direction: column; gap: 6px; box-shadow: 0 14px 30px rgba(142,15,66,.15)">
+<span style="font-family: 'Bricolage Grotesque', sans-serif; font-weight: 800; font-size: 54px; line-height: 1; letter-spacing: -0.03em">5</span>
+<span style="font-size: 14px; line-height: 1.45">Royal Commission for Riyadh City projects</span>
+</div>
+
+<div class="reveal lift" style="--r: 2deg; background: #3B0A24; color: #FFFFFF; border-radius: 24px; padding: 26px 22px; display: flex; flex-direction: column; gap: 6px; box-shadow: 0 14px 30px rgba(142,15,66,.15)">
+<span style="font-family: 'Bricolage Grotesque', sans-serif; font-weight: 800; font-size: 54px; line-height: 1; letter-spacing: -0.03em">VIP</span>
+<span style="font-size: 14px; line-height: 1.45">protocol for official guests &amp; stakeholders</span>
+</div>
+
+<div class="reveal lift" style="--r: -2deg; background: #FFD3E4; color: #3B0A24; border-radius: 24px; padding: 26px 22px; display: flex; flex-direction: column; gap: 6px; box-shadow: 0 14px 30px rgba(142,15,66,.15)">
+<span style="font-family: 'Bricolage Grotesque', sans-serif; font-weight: 800; font-size: 54px; line-height: 1; letter-spacing: -0.03em">AR·EN</span>
+<span style="font-size: 14px; line-height: 1.45">native Arabic, professional English</span>
+</div>
+
+</div>
+</div>
+</section>
+
+<!-- MY WORK -->
+<section id="work" style="background: #D81B72; color: #FFFFFF; padding: 112px 0 128px; position: relative">
+<div style="max-width: 1240px; margin: 0 auto; padding: 0 32px; display: flex; flex-direction: column; gap: 56px">
+<div style="display: flex; flex-wrap: wrap; justify-content: space-between; align-items: flex-end; gap: 20px">
+<h2 class="big-reveal giant" style="margin: 0; font-family: 'Bricolage Grotesque', sans-serif; font-weight: 800; font-size: 140px; line-height: .85; letter-spacing: -0.045em; transform-origin: left">my work</h2>
+<p style="margin: 0; max-width: 360px; font-family: Caveat, cursive; font-weight: 700; font-size: 30px; line-height: 1.15">every event, a ticket in ✦</p>
+</div>
+<div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(340px, 1fr)); gap: 32px">
+
+<article class="reveal lift" style="--r: -2deg; background: #FFFFFF; color: #3B0A24; border-radius: 24px; overflow: hidden; display: flex; flex-direction: column; box-shadow: 0 18px 40px rgba(60,0,25,.25)">
+<div style="background: #FFD3E4; padding: 22px 26px; display: flex; justify-content: space-between; align-items: center; font-size: 12px; font-weight: 700; letter-spacing: .14em; text-transform: uppercase; color: #3B0A24">
+<span>Royal Commission for Riyadh City</span><span>2024–25</span>
+</div>
+<div style="padding: 24px 26px 28px; display: flex; flex-direction: column; gap: 14px; flex-grow: 1">
+<h3 style="margin: 0; font-family: 'Bricolage Grotesque', sans-serif; font-weight: 800; font-size: 32px; line-height: 1; letter-spacing: -0.03em; color: #D81B72">Noor Riyadh</h3>
+<span style="align-self: flex-start; font-size: 13px; font-weight: 700; color: #FFFFFF; background: #3B0A24; padding: 7px 13px; border-radius: 999px">Social Media &amp; Protocol Coordinator</span>
+<p style="margin: 0; font-size: 15px; line-height: 1.6">Social media, content and event coverage for the light-art festival, plus protocol for VIPs, official guests and stakeholders.</p>
+</div>
+<div aria-hidden="true" style="border-top: 2px dashed #F7B6CF; margin: 0 22px; padding: 12px 0 16px; display: flex; justify-content: space-between; font-family: Caveat, cursive; font-weight: 700; font-size: 20px; color: #A8005A"><span>admit one</span><span>✦ ✦ ✦</span></div>
+</article>
+
+<article class="reveal lift" style="--r: 1.5deg; background: #FFFFFF; color: #3B0A24; border-radius: 24px; overflow: hidden; display: flex; flex-direction: column; box-shadow: 0 18px 40px rgba(60,0,25,.25)">
+<div style="background: #FFE6F0; padding: 22px 26px; display: flex; justify-content: space-between; align-items: center; font-size: 12px; font-weight: 700; letter-spacing: .14em; text-transform: uppercase; color: #3B0A24">
+<span>Royal Commission for Riyadh City</span><span>2024–25</span>
+</div>
+<div style="padding: 24px 26px 28px; display: flex; flex-direction: column; gap: 14px; flex-grow: 1">
+<h3 style="margin: 0; font-family: 'Bricolage Grotesque', sans-serif; font-weight: 800; font-size: 32px; line-height: 1; letter-spacing: -0.03em; color: #D81B72">Tuwaiq Sculpture</h3>
+<span style="align-self: flex-start; font-size: 13px; font-weight: 700; color: #FFFFFF; background: #3B0A24; padding: 7px 13px; border-radius: 999px">Social Media &amp; Protocol Coordinator</span>
+<p style="margin: 0; font-size: 15px; line-height: 1.6">Digital content and coverage, guest protocol, event logistics and on-site coordination with cross-functional teams.</p>
+</div>
+<div aria-hidden="true" style="border-top: 2px dashed #F7B6CF; margin: 0 22px; padding: 12px 0 16px; display: flex; justify-content: space-between; font-family: Caveat, cursive; font-weight: 700; font-size: 20px; color: #A8005A"><span>admit one</span><span>✦ ✦ ✦</span></div>
+</article>
+
+<article class="reveal lift" style="--r: -1deg; background: #FFFFFF; color: #3B0A24; border-radius: 24px; overflow: hidden; display: flex; flex-direction: column; box-shadow: 0 18px 40px rgba(60,0,25,.25)">
+<div style="background: #FFC2DA; padding: 22px 26px; display: flex; justify-content: space-between; align-items: center; font-size: 12px; font-weight: 700; letter-spacing: .14em; text-transform: uppercase; color: #3B0A24">
+<span>Royal Commission for Riyadh City</span><span>2025</span>
+</div>
+<div style="padding: 24px 26px 28px; display: flex; flex-direction: column; gap: 14px; flex-grow: 1">
+<h3 style="margin: 0; font-family: 'Bricolage Grotesque', sans-serif; font-weight: 800; font-size: 32px; line-height: 1; letter-spacing: -0.03em; color: #D81B72">Slava's Snow Show</h3>
+<span style="align-self: flex-start; font-size: 13px; font-weight: 700; color: #FFFFFF; background: #3B0A24; padding: 7px 13px; border-radius: 999px">Media Center &amp; Protocol Coordinator</span>
+<p style="margin: 0; font-size: 15px; line-height: 1.6">Media center operations, media coordination and protocol for VIPs and official guests.</p>
+</div>
+<div aria-hidden="true" style="border-top: 2px dashed #F7B6CF; margin: 0 22px; padding: 12px 0 16px; display: flex; justify-content: space-between; font-family: Caveat, cursive; font-weight: 700; font-size: 20px; color: #A8005A"><span>admit one</span><span>✦ ✦ ✦</span></div>
+</article>
+
+<article class="reveal lift" style="--r: 2deg; background: #FFFFFF; color: #3B0A24; border-radius: 24px; overflow: hidden; display: flex; flex-direction: column; box-shadow: 0 18px 40px rgba(60,0,25,.25)">
+<div style="background: #FFD3E4; padding: 22px 26px; display: flex; justify-content: space-between; align-items: center; font-size: 12px; font-weight: 700; letter-spacing: .14em; text-transform: uppercase; color: #3B0A24">
+<span>Royal Commission for Riyadh City</span><span>2025</span>
+</div>
+<div style="padding: 24px 26px 28px; display: flex; flex-direction: column; gap: 14px; flex-grow: 1">
+<h3 style="margin: 0; font-family: 'Bricolage Grotesque', sans-serif; font-weight: 800; font-size: 32px; line-height: 1; letter-spacing: -0.03em; color: #D81B72">Riyadh Film Music Festival</h3>
+<span style="align-self: flex-start; font-size: 13px; font-weight: 700; color: #FFFFFF; background: #3B0A24; padding: 7px 13px; border-radius: 999px">Media Center &amp; Protocol Coordinator</span>
+<p style="margin: 0; font-size: 15px; line-height: 1.6">Media center and accreditation, official guest protocol and stakeholder communication.</p>
+</div>
+<div aria-hidden="true" style="border-top: 2px dashed #F7B6CF; margin: 0 22px; padding: 12px 0 16px; display: flex; justify-content: space-between; font-family: Caveat, cursive; font-weight: 700; font-size: 20px; color: #A8005A"><span>admit one</span><span>✦ ✦ ✦</span></div>
+</article>
+
+<article class="reveal lift" style="--r: -1.5deg; background: #FFFFFF; color: #3B0A24; border-radius: 24px; overflow: hidden; display: flex; flex-direction: column; box-shadow: 0 18px 40px rgba(60,0,25,.25)">
+<div style="background: #FFE6F0; padding: 22px 26px; display: flex; justify-content: space-between; align-items: center; font-size: 12px; font-weight: 700; letter-spacing: .14em; text-transform: uppercase; color: #3B0A24">
+<span>Royal Commission for Riyadh City</span><span>2024–25</span>
+</div>
+<div style="padding: 24px 26px 28px; display: flex; flex-direction: column; gap: 14px; flex-grow: 1">
+<h3 style="margin: 0; font-family: 'Bricolage Grotesque', sans-serif; font-weight: 800; font-size: 32px; line-height: 1; letter-spacing: -0.03em; color: #D81B72">Riyadh Metro</h3>
+<span style="align-self: flex-start; font-size: 13px; font-weight: 700; color: #FFFFFF; background: #3B0A24; padding: 7px 13px; border-radius: 999px">Social Media Specialist</span>
+<p style="margin: 0; font-size: 15px; line-height: 1.6">Social media coverage, content creation and digital engagement for the city metro.</p>
+</div>
+<div aria-hidden="true" style="border-top: 2px dashed #F7B6CF; margin: 0 22px; padding: 12px 0 16px; display: flex; justify-content: space-between; font-family: Caveat, cursive; font-weight: 700; font-size: 20px; color: #A8005A"><span>admit one</span><span>✦ ✦ ✦</span></div>
+</article>
+
+<article class="reveal lift" style="--r: 1deg; background: #FFFFFF; color: #3B0A24; border-radius: 24px; overflow: hidden; display: flex; flex-direction: column; box-shadow: 0 18px 40px rgba(60,0,25,.25)">
+<div style="background: #FFC2DA; padding: 22px 26px; display: flex; justify-content: space-between; align-items: center; font-size: 12px; font-weight: 700; letter-spacing: .14em; text-transform: uppercase; color: #3B0A24">
+<span>Diriyah Gate Project</span><span>2024</span>
+</div>
+<div style="padding: 24px 26px 28px; display: flex; flex-direction: column; gap: 14px; flex-grow: 1">
+<h3 style="margin: 0; font-family: 'Bricolage Grotesque', sans-serif; font-weight: 800; font-size: 32px; line-height: 1; letter-spacing: -0.03em; color: #D81B72">Diriyah Gate</h3>
+<span style="align-self: flex-start; font-size: 13px; font-weight: 700; color: #FFFFFF; background: #3B0A24; padding: 7px 13px; border-radius: 999px">Social Media Specialist</span>
+<p style="margin: 0; font-size: 15px; line-height: 1.6">Social media campaigns, content development and event coverage with the marketing team.</p>
+</div>
+<div aria-hidden="true" style="border-top: 2px dashed #F7B6CF; margin: 0 22px; padding: 12px 0 16px; display: flex; justify-content: space-between; font-family: Caveat, cursive; font-weight: 700; font-size: 20px; color: #A8005A"><span>admit one</span><span>✦ ✦ ✦</span></div>
+</article>
+
+<article class="reveal lift" style="--r: -2deg; background: #FFFFFF; color: #3B0A24; border-radius: 24px; overflow: hidden; display: flex; flex-direction: column; box-shadow: 0 18px 40px rgba(60,0,25,.25)">
+<div style="background: #FFD3E4; padding: 22px 26px; display: flex; justify-content: space-between; align-items: center; font-size: 12px; font-weight: 700; letter-spacing: .14em; text-transform: uppercase; color: #3B0A24">
+<span>Fintech event</span><span>2025</span>
+</div>
+<div style="padding: 24px 26px 28px; display: flex; flex-direction: column; gap: 14px; flex-grow: 1">
+<h3 style="margin: 0; font-family: 'Bricolage Grotesque', sans-serif; font-weight: 800; font-size: 32px; line-height: 1; letter-spacing: -0.03em; color: #D81B72">Money20/20 Middle East</h3>
+<span style="align-self: flex-start; font-size: 13px; font-weight: 700; color: #FFFFFF; background: #3B0A24; padding: 7px 13px; border-radius: 999px">Project Manager</span>
+<p style="margin: 0; font-size: 15px; line-height: 1.6">Project planning and execution, stakeholder coordination, reporting and cross-team communication.</p>
+</div>
+<div aria-hidden="true" style="border-top: 2px dashed #F7B6CF; margin: 0 22px; padding: 12px 0 16px; display: flex; justify-content: space-between; font-family: Caveat, cursive; font-weight: 700; font-size: 20px; color: #A8005A"><span>admit one</span><span>✦ ✦ ✦</span></div>
+</article>
+
+<article class="reveal lift" style="--r: 1.5deg; background: #FFFFFF; color: #3B0A24; border-radius: 24px; overflow: hidden; display: flex; flex-direction: column; box-shadow: 0 18px 40px rgba(60,0,25,.25)">
+<div style="background: #FFE6F0; padding: 22px 26px; display: flex; justify-content: space-between; align-items: center; font-size: 12px; font-weight: 700; letter-spacing: .14em; text-transform: uppercase; color: #3B0A24">
+<span>Banking</span><span>2023–24</span>
+</div>
+<div style="padding: 24px 26px 28px; display: flex; flex-direction: column; gap: 14px; flex-grow: 1">
+<h3 style="margin: 0; font-family: 'Bricolage Grotesque', sans-serif; font-weight: 800; font-size: 32px; line-height: 1; letter-spacing: -0.03em; color: #D81B72">Banque Saudi Fransi</h3>
+<span style="align-self: flex-start; font-size: 13px; font-weight: 700; color: #FFFFFF; background: #3B0A24; padding: 7px 13px; border-radius: 999px">Marketing Specialist</span>
+<p style="margin: 0; font-size: 15px; line-height: 1.6">Marketing campaigns for banking products, customer acquisition and engagement, plus Visa Retail Banking training.</p>
+</div>
+<div aria-hidden="true" style="border-top: 2px dashed #F7B6CF; margin: 0 22px; padding: 12px 0 16px; display: flex; justify-content: space-between; font-family: Caveat, cursive; font-weight: 700; font-size: 20px; color: #A8005A"><span>admit one</span><span>✦ ✦ ✦</span></div>
+</article>
+
+</div>
+</div>
+</section>
+
+<!-- MY BRAND: WASSMLINE -->
+<section id="brand" style="background: #D3C9BF; color: #3A312A; padding: 112px 0; position: relative">
+<div style="max-width: 1240px; margin: 0 auto; padding: 0 32px; display: flex; flex-direction: column; gap: 56px">
+<div style="display: flex; flex-wrap: wrap; gap: 40px; justify-content: space-between; align-items: center">
+<div style="flex: 999 1 480px; min-width: 0; display: flex; flex-direction: column; gap: 22px">
+<span style="align-self: flex-start; font-size: 12px; font-weight: 700; letter-spacing: .18em; text-transform: uppercase; color: #F4EFE9; background: #5C5046; padding: 8px 14px; border-radius: 999px">my brand · founder &amp; creative director · 2021–now</span>
+<h2 class="big-reveal giant" style="margin: 0; font-family: 'Cormorant Garamond', serif; font-weight: 600; font-size: 120px; line-height: .85; letter-spacing: .02em; color: #3A312A; transform-origin: left">wassmline</h2>
+<p class="reveal" style="margin: 0; font-size: 18px; line-height: 1.7; color: #4A4038; max-width: 600px">In 2021 I started Wassmline, my own abaya brand. I design the collections and run everything around them: the visual identity, the packaging (from dust bags to shopping bags), the marketing and the brand's social media.</p>
+<a href="https://instagram.com/wassmline" class="lift" style="align-self: flex-start; color: #F4EFE9; background: #3A312A; text-decoration: none; font-weight: 700; font-size: 16px; padding: 16px 28px; border-radius: 999px">@wassmline on Instagram ↗</a>
+</div>
+<div class="reveal" style="flex: 1 1 380px; display: flex; justify-content: center">
+<img src="assets/wassmline-logo.jpg" alt="Wassmline logo: Arabic calligraphy with Wassm Line written beneath" style="width: 100%; max-width: 520px; display: block">
+</div>
+</div>
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 24px; align-items: start">
+
+<figure class="reveal lift" style="--r: -1.5deg; margin: 0; background: #F4EFE9; padding: 12px 12px 18px; border-radius: 6px; box-shadow: 0 24px 48px rgba(58,49,42,.22); display: flex; flex-direction: column; gap: 12px">
+<img src="assets/abaya-sparkle.jpg" alt="Black Wassmline abaya with scattered sparkle detail" style="width: 100%; height: 480px; object-fit: cover; object-position: center 30%; display: block; border-radius: 2px">
+<figcaption style="font-family: Caveat, cursive; font-weight: 700; font-size: 24px; color: #3A312A; text-align: center">the collection</figcaption>
+</figure>
+
+<figure class="reveal lift" style="--r: 1deg; margin: 40px 0 0; background: #F4EFE9; padding: 12px 12px 18px; border-radius: 6px; box-shadow: 0 24px 48px rgba(58,49,42,.22); display: flex; flex-direction: column; gap: 12px">
+<img src="assets/abaya-chair.jpg" alt="Wassmline abaya with a satin body and textured hem, worn seated on a tan leather chair" style="width: 100%; height: 480px; object-fit: cover; object-position: 42% center; display: block; border-radius: 2px">
+<figcaption style="font-family: Caveat, cursive; font-weight: 700; font-size: 24px; color: #3A312A; text-align: center">texture &amp; detail</figcaption>
+</figure>
+
+<figure class="reveal lift" style="--r: -1deg; margin: 0; background: #F4EFE9; padding: 12px 12px 18px; border-radius: 6px; box-shadow: 0 24px 48px rgba(58,49,42,.22); display: flex; flex-direction: column; gap: 12px">
+<img src="assets/garment-bag.jpg" alt="Wassmline garment bag with the brand logo and a hang tag, hanging in a wardrobe" style="width: 100%; height: 480px; object-fit: cover; object-position: center 25%; display: block; border-radius: 2px">
+<figcaption style="font-family: Caveat, cursive; font-weight: 700; font-size: 24px; color: #3A312A; text-align: center">packaging: garment bag &amp; tag</figcaption>
+</figure>
+
+</div>
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 18px">
+
+<div class="reveal" style="--r: -1.5deg; border: 1px solid #A89A8C; border-radius: 22px; padding: 26px 24px; display: flex; flex-direction: column; gap: 10px; background: #E2DAD1">
+<span style="font-family: 'Cormorant Garamond', serif; font-weight: 600; font-size: 40px; line-height: 1; color: #5C5046">01</span>
+<span style="font-family: 'Bricolage Grotesque', sans-serif; font-weight: 800; font-size: 21px; letter-spacing: -0.02em">Abaya design</span>
+<span style="font-size: 15px; line-height: 1.6; color: #4A4038">I design the abaya collections, from the first idea to the finished piece.</span>
+</div>
+
+<div class="reveal" style="--r: 1deg; border: 1px solid #A89A8C; border-radius: 22px; padding: 26px 24px; display: flex; flex-direction: column; gap: 10px; background: #E2DAD1">
+<span style="font-family: 'Cormorant Garamond', serif; font-weight: 600; font-size: 40px; line-height: 1; color: #5C5046">02</span>
+<span style="font-family: 'Bricolage Grotesque', sans-serif; font-weight: 800; font-size: 21px; letter-spacing: -0.02em">Brand identity</span>
+<span style="font-size: 15px; line-height: 1.6; color: #4A4038">I developed Wassmline’s visual identity.</span>
+</div>
+
+<div class="reveal" style="--r: -1deg; border: 1px solid #A89A8C; border-radius: 22px; padding: 26px 24px; display: flex; flex-direction: column; gap: 10px; background: #E2DAD1">
+<span style="font-family: 'Cormorant Garamond', serif; font-weight: 600; font-size: 40px; line-height: 1; color: #5C5046">03</span>
+<span style="font-family: 'Bricolage Grotesque', sans-serif; font-weight: 800; font-size: 21px; letter-spacing: -0.02em">Packaging</span>
+<span style="font-size: 15px; line-height: 1.6; color: #4A4038">I created the packaging, including the dust bags and shopping bags.</span>
+</div>
+
+<div class="reveal" style="--r: 1.5deg; border: 1px solid #A89A8C; border-radius: 22px; padding: 26px 24px; display: flex; flex-direction: column; gap: 10px; background: #E2DAD1">
+<span style="font-family: 'Cormorant Garamond', serif; font-weight: 600; font-size: 40px; line-height: 1; color: #5C5046">04</span>
+<span style="font-family: 'Bricolage Grotesque', sans-serif; font-weight: 800; font-size: 21px; letter-spacing: -0.02em">Marketing &amp; social</span>
+<span style="font-size: 15px; line-height: 1.6; color: #4A4038">I run the marketing and the brand’s social media presence.</span>
+</div>
+
+</div>
+</div>
+</section>
+
+<!-- FEATURED: SLAVA'S SNOW SHOW -->
+<section class="stripes" style="background: repeating-linear-gradient(90deg, #FFE6F0 0 120px, #FFD3E4 120px 240px); padding: 120px 0 140px">
+<div style="max-width: 1240px; margin: 0 auto; padding: 0 32px; display: flex; flex-wrap: wrap; gap: 72px; align-items: center">
+<div style="flex: 1 1 420px; display: flex; justify-content: center; position: relative; min-height: 560px">
+<div class="reveal lift" style="--r: -7deg; position: absolute; left: 4%; top: 30px; width: 300px; max-width: 70%; background: #FFFFFF; padding: 12px; box-shadow: 0 30px 60px rgba(142,15,66,.25)">
+<img src="assets/snow-show-post-2.jpg" alt="Royal Commission for Riyadh City post for Slava's Snow Show at Bakr Al Shaddi Theatre, Boulevard Riyadh City" style="width: 100%; display: block">
+</div>
+<div class="reveal lift" style="--r: 5deg; position: absolute; right: 4%; top: 0; width: 300px; max-width: 70%; background: #FFFFFF; padding: 12px; box-shadow: 0 30px 60px rgba(142,15,66,.25)">
+<div aria-hidden="true" style="position: absolute; top: -14px; right: 40px; width: 100px; height: 30px; background: rgba(255,170,205,.8); transform: rotate(6deg)"></div>
+<img src="assets/snow-show-post-1.jpg" alt="Royal Commission for Riyadh City post showing children and families enjoying Slava's Snow Show" style="width: 100%; display: block">
+</div>
+<div class="float" style="--r: 8deg; position: absolute; left: 0; bottom: 0; background: #3B0A24; color: #FFFFFF; font-family: Caveat, cursive; font-weight: 700; font-size: 24px; padding: 10px 18px; border-radius: 12px">official RCRC coverage ↗</div>
+<svg class="spin deco" aria-hidden="true" width="56" height="56" viewBox="0 0 100 100" style="position: absolute; right: 0; bottom: 40px"><path d="M50 0 L58 42 L100 50 L58 58 L50 100 L42 58 L0 50 L42 42 Z" fill="#D81B72"></path></svg>
+</div>
+<div style="flex: 999 1 460px; min-width: 0; display: flex; flex-direction: column; gap: 22px">
+<span style="font-family: Caveat, cursive; font-weight: 700; font-size: 32px; color: #D81B72">featured project ❄</span>
+<h2 class="big-reveal" style="margin: 0; font-family: 'Bricolage Grotesque', sans-serif; font-weight: 800; font-size: 84px; line-height: .9; letter-spacing: -0.04em; color: #3B0A24; transform-origin: left">slava's snow show</h2>
+<p class="reveal" style="margin: 0; font-size: 18px; line-height: 1.7">At Bakr Al Shaddi Theatre in Boulevard Riyadh City, I was on the Media Center and Protocol team for the Royal Commission for Riyadh City. I supported media center operations, coordinated protocol for VIPs and official guests, and helped keep the show running on site.</p>
+<div style="display: flex; flex-wrap: wrap; gap: 10px">
+<span class="reveal chip" style="--r: -2deg; background: #D81B72; color: #FFFFFF; font-weight: 700; font-size: 15px; padding: 12px 18px; border-radius: 999px">media center</span>
+<span class="reveal chip" style="--r: 2deg; background: #FFFFFF; color: #3B0A24; font-weight: 700; font-size: 15px; padding: 12px 18px; border-radius: 999px">VIP protocol</span>
+<span class="reveal chip" style="--r: -1deg; background: #3B0A24; color: #FFFFFF; font-weight: 700; font-size: 15px; padding: 12px 18px; border-radius: 999px">on-site operations</span>
+</div>
+</div>
+</div>
+</section>
+
+<!-- REEL -->
+<section id="reel" style="padding: 120px 0 96px">
+<div style="max-width: 1240px; margin: 0 auto; padding: 0 32px; display: flex; flex-direction: column; gap: 48px">
+<div style="display: flex; flex-wrap: wrap; justify-content: space-between; align-items: flex-end; gap: 20px">
+<div style="display: flex; flex-direction: column; gap: 8px">
+<span style="font-family: Caveat, cursive; font-weight: 700; font-size: 32px; color: #3B0A24">riyadh metro ✦ social media</span>
+<h2 class="big-reveal giant" style="margin: 0; font-family: 'Bricolage Grotesque', sans-serif; font-weight: 800; font-size: 140px; line-height: .85; letter-spacing: -0.045em; color: #D81B72; transform-origin: left">the reel</h2>
+</div>
+<p style="margin: 0; max-width: 360px; font-size: 16px; line-height: 1.6">Short videos from my work with the Riyadh Metro social media team: station stories, everyday rides and a 2024 recap. Tap any phone to play.</p>
+</div>
+<div style="display: flex; gap: 32px; overflow-x: auto; padding: 24px 8px 40px; scroll-snap-type: x mandatory">
+
+<figure class="float" style="--r: -2deg; animation-delay: 0s; margin: 0; flex: 0 0 236px; scroll-snap-align: start; display: flex; flex-direction: column; gap: 14px">
+<div style="width: 236px; height: 448px; box-sizing: border-box; border-radius: 38px; background: #000000; border: 7px solid #D81B72; overflow: hidden; box-shadow: 0 24px 44px rgba(142,15,66,.3)">
+<video src="assets/video-muaiqiliyah.mp4" poster="assets/poster-muaiqiliyah.jpg" controls="" playsinline="" loop="" preload="none" aria-label="Al Muaiqiliyah &amp; Family" style="display: block; width: 100%; height: 100%; object-fit: cover"></video>
+</div>
+<figcaption style="display: flex; flex-direction: column; gap: 2px; padding: 0 6px">
+<span style="font-family: 'Bricolage Grotesque', sans-serif; font-weight: 800; font-size: 19px; letter-spacing: -0.02em">Al Muaiqiliyah &amp; Family</span>
+<span style="font-size: 13px; color: #7A3A57">Station spotlight · 0:27</span>
+</figcaption>
+</figure>
+
+<figure class="float" style="--r: 1.5deg; animation-delay: -0.8s; margin: 0; flex: 0 0 236px; scroll-snap-align: start; display: flex; flex-direction: column; gap: 14px">
+<div style="width: 236px; height: 448px; box-sizing: border-box; border-radius: 38px; background: #000000; border: 7px solid #3B0A24; overflow: hidden; box-shadow: 0 24px 44px rgba(142,15,66,.3)">
+<video src="assets/video-shopping.mp4" poster="assets/poster-shopping.jpg" controls="" playsinline="" loop="" preload="none" aria-label="Shopping got easier" style="display: block; width: 100%; height: 100%; object-fit: cover"></video>
+</div>
+<figcaption style="display: flex; flex-direction: column; gap: 2px; padding: 0 6px">
+<span style="font-family: 'Bricolage Grotesque', sans-serif; font-weight: 800; font-size: 19px; letter-spacing: -0.02em">Shopping got easier</span>
+<span style="font-size: 13px; color: #7A3A57">Everyday rides · 0:40</span>
+</figcaption>
+</figure>
+
+<figure class="float" style="--r: -1deg; animation-delay: -1.6s; margin: 0; flex: 0 0 236px; scroll-snap-align: start; display: flex; flex-direction: column; gap: 14px">
+<div style="width: 236px; height: 448px; box-sizing: border-box; border-radius: 38px; background: #000000; border: 7px solid #D81B72; overflow: hidden; box-shadow: 0 24px 44px rgba(142,15,66,.3)">
+<video src="assets/video-2024-recap.mp4" poster="assets/poster-2024-recap.jpg" controls="" playsinline="" loop="" preload="none" aria-label="2024 Recap" style="display: block; width: 100%; height: 100%; object-fit: cover"></video>
+</div>
+<figcaption style="display: flex; flex-direction: column; gap: 2px; padding: 0 6px">
+<span style="font-family: 'Bricolage Grotesque', sans-serif; font-weight: 800; font-size: 19px; letter-spacing: -0.02em">2024 Recap</span>
+<span style="font-size: 13px; color: #7A3A57">Year in review · 0:17</span>
+</figcaption>
+</figure>
+
+<figure class="float" style="--r: 2deg; animation-delay: -2.4000000000000004s; margin: 0; flex: 0 0 236px; scroll-snap-align: start; display: flex; flex-direction: column; gap: 14px">
+<div style="width: 236px; height: 448px; box-sizing: border-box; border-radius: 38px; background: #000000; border: 7px solid #3B0A24; overflow: hidden; box-shadow: 0 24px 44px rgba(142,15,66,.3)">
+<video src="assets/video-inside-metro.mp4" poster="assets/poster-inside-metro.jpg" controls="" playsinline="" loop="" preload="none" aria-label="Inside the Metro" style="display: block; width: 100%; height: 100%; object-fit: cover"></video>
+</div>
+<figcaption style="display: flex; flex-direction: column; gap: 2px; padding: 0 6px">
+<span style="font-family: 'Bricolage Grotesque', sans-serif; font-weight: 800; font-size: 19px; letter-spacing: -0.02em">Inside the Metro</span>
+<span style="font-size: 13px; color: #7A3A57">Short-form · 0:19</span>
+</figcaption>
+</figure>
+
+<figure class="float" style="--r: -1.5deg; animation-delay: -3.2s; margin: 0; flex: 0 0 236px; scroll-snap-align: start; display: flex; flex-direction: column; gap: 14px">
+<div style="width: 236px; height: 448px; box-sizing: border-box; border-radius: 38px; background: #000000; border: 7px solid #D81B72; overflow: hidden; box-shadow: 0 24px 44px rgba(142,15,66,.3)">
+<video src="assets/video-oud-station.mp4" poster="assets/poster-oud-station.jpg" controls="" playsinline="" loop="" preload="none" aria-label="Oud Station" style="display: block; width: 100%; height: 100%; object-fit: cover"></video>
+</div>
+<figcaption style="display: flex; flex-direction: column; gap: 2px; padding: 0 6px">
+<span style="font-family: 'Bricolage Grotesque', sans-serif; font-weight: 800; font-size: 19px; letter-spacing: -0.02em">Oud Station</span>
+<span style="font-size: 13px; color: #7A3A57">Qasr Alhukm · 0:25</span>
+</figcaption>
+</figure>
+
+<figure class="float" style="--r: 1deg; animation-delay: -4s; margin: 0; flex: 0 0 236px; scroll-snap-align: start; display: flex; flex-direction: column; gap: 14px">
+<div style="width: 236px; height: 448px; box-sizing: border-box; border-radius: 38px; background: #000000; border: 7px solid #3B0A24; overflow: hidden; box-shadow: 0 24px 44px rgba(142,15,66,.3)">
+<video src="assets/video-qasr-alhukm.mp4" poster="assets/poster-qasr-alhukm.jpg" controls="" playsinline="" loop="" preload="none" aria-label="Qasr Alhukm" style="display: block; width: 100%; height: 100%; object-fit: cover"></video>
+</div>
+<figcaption style="display: flex; flex-direction: column; gap: 2px; padding: 0 6px">
+<span style="font-family: 'Bricolage Grotesque', sans-serif; font-weight: 800; font-size: 19px; letter-spacing: -0.02em">Qasr Alhukm</span>
+<span style="font-size: 13px; color: #7A3A57">Architecture · 0:31</span>
+</figcaption>
+</figure>
+
+</div>
+</div>
+</section>
+
+<!-- SKILLS -->
+<section style="background: #FFFFFF; padding: 112px 0">
+<div style="max-width: 1240px; margin: 0 auto; padding: 0 32px; display: flex; flex-wrap: wrap; gap: 56px">
+<div style="flex: 1 1 340px; display: flex; flex-direction: column; gap: 18px">
+<h2 class="big-reveal" style="margin: 0; font-family: 'Bricolage Grotesque', sans-serif; font-weight: 800; font-size: 84px; line-height: .88; letter-spacing: -0.04em; color: #D81B72; transform-origin: left">skills &amp; certifications</h2>
+<div class="reveal" style="--r: -2deg; align-self: flex-start; background: #FFE6F0; border-radius: 20px; padding: 22px 24px; display: flex; flex-direction: column; gap: 6px">
+<span style="font-family: Caveat, cursive; font-weight: 700; font-size: 26px; color: #A8005A">also…</span>
+<span style="font-size: 15px; line-height: 1.6">Marketing Specialist, Banque Saudi Fransi (2023–24)<br>B.Sc. General Biology, Princess Nourah University (2023)<br>Arabic (native) · English (professional)</span>
+</div>
+</div>
+<div style="flex: 999 1 560px; min-width: 0; display: flex; flex-direction: column; gap: 32px">
+<div style="display: flex; flex-wrap: wrap; gap: 12px">
+
+<span class="reveal lift chip" style="--r: -2deg; font-size: 15px; font-weight: 500; padding: 12px 18px; border-radius: 999px; background: #D81B72; color: #FFFFFF">Social Media &amp; Digital Comms</span>
+
+<span class="reveal lift chip" style="--r: 1.5deg; font-size: 15px; font-weight: 500; padding: 12px 18px; border-radius: 999px; background: #FFE6F0; color: #3B0A24">Protocol &amp; VIP Coordination</span>
+
+<span class="reveal lift chip" style="--r: -1deg; font-size: 15px; font-weight: 500; padding: 12px 18px; border-radius: 999px; background: #3B0A24; color: #FFFFFF">Media Center Operations</span>
+
+<span class="reveal lift chip" style="--r: 2deg; font-size: 15px; font-weight: 500; padding: 12px 18px; border-radius: 999px; background: #FFD3E4; color: #3B0A24">Media Relations</span>
+
+<span class="reveal lift chip" style="--r: -1.5deg; font-size: 15px; font-weight: 500; padding: 12px 18px; border-radius: 999px; background: #D81B72; color: #FFFFFF">Project Coordination &amp; PMO</span>
+
+<span class="reveal lift chip" style="--r: 1deg; font-size: 15px; font-weight: 500; padding: 12px 18px; border-radius: 999px; background: #FFE6F0; color: #3B0A24">Stakeholder Management</span>
+
+<span class="reveal lift chip" style="--r: -2deg; font-size: 15px; font-weight: 500; padding: 12px 18px; border-radius: 999px; background: #3B0A24; color: #FFFFFF">Event Operations</span>
+
+<span class="reveal lift chip" style="--r: -2deg; font-size: 15px; font-weight: 500; padding: 12px 18px; border-radius: 999px; background: #FFD3E4; color: #3B0A24">Event Logistics</span>
+
+<span class="reveal lift chip" style="--r: 1.5deg; font-size: 15px; font-weight: 500; padding: 12px 18px; border-radius: 999px; background: #D81B72; color: #FFFFFF">Content Coordination</span>
+
+<span class="reveal lift chip" style="--r: -1deg; font-size: 15px; font-weight: 500; padding: 12px 18px; border-radius: 999px; background: #FFE6F0; color: #3B0A24">Marketing Campaigns</span>
+
+<span class="reveal lift chip" style="--r: 2deg; font-size: 15px; font-weight: 500; padding: 12px 18px; border-radius: 999px; background: #3B0A24; color: #FFFFFF">Instagram · TikTok · Snapchat · LinkedIn</span>
+
+<span class="reveal lift chip" style="--r: -1.5deg; font-size: 15px; font-weight: 500; padding: 12px 18px; border-radius: 999px; background: #FFD3E4; color: #3B0A24">Video Editing (CapCut)</span>
+
+<span class="reveal lift chip" style="--r: 1deg; font-size: 15px; font-weight: 500; padding: 12px 18px; border-radius: 999px; background: #D81B72; color: #FFFFFF">Adobe Creative Suite</span>
+
+<span class="reveal lift chip" style="--r: -2deg; font-size: 15px; font-weight: 500; padding: 12px 18px; border-radius: 999px; background: #FFE6F0; color: #3B0A24">Canva</span>
+
+<span class="reveal lift chip" style="--r: -2deg; font-size: 15px; font-weight: 500; padding: 12px 18px; border-radius: 999px; background: #3B0A24; color: #FFFFFF">Microsoft Office</span>
+
+</div>
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 16px">
+
+<div class="reveal" style="border: 2px solid #F7B6CF; border-radius: 18px; padding: 18px 20px; display: flex; gap: 12px; align-items: center">
+<svg aria-hidden="true" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#D81B72" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="9" r="6"></circle><path d="M8.5 14 7 22l5-3 5 3-1.5-8"></path></svg>
+<span style="font-size: 15px; font-weight: 500">Project Management — HADAF</span>
+</div>
+
+<div class="reveal" style="border: 2px solid #F7B6CF; border-radius: 18px; padding: 18px 20px; display: flex; gap: 12px; align-items: center">
+<svg aria-hidden="true" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#D81B72" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="9" r="6"></circle><path d="M8.5 14 7 22l5-3 5 3-1.5-8"></path></svg>
+<span style="font-size: 15px; font-weight: 500">MARAN — Project Management</span>
+</div>
+
+<div class="reveal" style="border: 2px solid #F7B6CF; border-radius: 18px; padding: 18px 20px; display: flex; gap: 12px; align-items: center">
+<svg aria-hidden="true" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#D81B72" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="9" r="6"></circle><path d="M8.5 14 7 22l5-3 5 3-1.5-8"></path></svg>
+<span style="font-size: 15px; font-weight: 500">Visa Retail Banking Program</span>
+</div>
+
+<div class="reveal" style="border: 2px solid #F7B6CF; border-radius: 18px; padding: 18px 20px; display: flex; gap: 12px; align-items: center">
+<svg aria-hidden="true" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#D81B72" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="9" r="6"></circle><path d="M8.5 14 7 22l5-3 5 3-1.5-8"></path></svg>
+<span style="font-size: 15px; font-weight: 500">Workplace Skills</span>
+</div>
+
+<div class="reveal" style="border: 2px solid #F7B6CF; border-radius: 18px; padding: 18px 20px; display: flex; gap: 12px; align-items: center">
+<svg aria-hidden="true" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#D81B72" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="9" r="6"></circle><path d="M8.5 14 7 22l5-3 5 3-1.5-8"></path></svg>
+<span style="font-size: 15px; font-weight: 500">Entrepreneurship</span>
+</div>
+
+<div class="reveal" style="border: 2px solid #F7B6CF; border-radius: 18px; padding: 18px 20px; display: flex; gap: 12px; align-items: center">
+<svg aria-hidden="true" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#D81B72" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="9" r="6"></circle><path d="M8.5 14 7 22l5-3 5 3-1.5-8"></path></svg>
+<span style="font-size: 15px; font-weight: 500">Professional &amp; Academic English</span>
+</div>
+
+</div>
+</div>
+</div>
+</section>
+
+<!-- CONNECT -->
+<section id="connect" class="stripes" style="background: repeating-linear-gradient(90deg, #FFE6F0 0 120px, #FFD3E4 120px 240px); padding: 120px 0 56px">
+<div style="max-width: 1240px; margin: 0 auto; padding: 0 32px; display: flex; flex-direction: column; align-items: center; gap: 32px; text-align: center">
+<span style="font-family: 'IBM Plex Sans Arabic', sans-serif; font-weight: 700; font-size: 28px; color: #3B0A24">حيّاك</span>
+<h2 class="big-reveal giant" style="margin: 0; font-family: 'Bricolage Grotesque', sans-serif; font-weight: 800; font-size: 200px; line-height: .8; letter-spacing: -0.05em; color: #D81B72">connect</h2>
+<p style="margin: 0; font-family: Caveat, cursive; font-weight: 700; font-size: 32px">your next event needs a host ♡</p>
+<div style="display: flex; flex-wrap: wrap; gap: 14px; justify-content: center">
+<a href="mailto:Majedah.khalid@gmail.com" class="lift" style="color: #FFFFFF; background: #D81B72; text-decoration: none; font-weight: 700; font-size: 17px; padding: 18px 28px; border-radius: 999px">Majedah.khalid@gmail.com</a>
+<a href="https://linkedin.com/in/majedah-aljadaan-866644327" class="lift" style="color: #FFFFFF; background: #3B0A24; text-decoration: none; font-weight: 700; font-size: 17px; padding: 18px 28px; border-radius: 999px">LinkedIn ↗</a>
+<a href="tel:+966533842575" class="lift" style="color: #3B0A24; background: #FFFFFF; text-decoration: none; font-weight: 700; font-size: 17px; padding: 18px 28px; border-radius: 999px">+966 53 384 2575</a>
+</div>
+<footer style="padding-top: 72px; font-size: 13px; color: #7A3A57">© 2026 Majedah Aljadaan · Marketing · Social Media · Protocol · Riyadh</footer>
+</div>
+</section>
+
+</div>
+<script>
+// Cycle the hero words every 3.2s and replay the letter pop.
+(function(){var ps=document.querySelectorAll('.phrase');if(ps.length<2||matchMedia('(prefers-reduced-motion: reduce)').matches)return;var i=0;
+setInterval(function(){ps[i].style.display='none';i=(i+1)%ps.length;var p=ps[i];p.querySelectorAll('.letter').forEach(function(l){l.style.animation='none';l.offsetWidth;l.style.animation='';});p.style.display='block';},3200);})();
+</script>
+</body>
+</html>
